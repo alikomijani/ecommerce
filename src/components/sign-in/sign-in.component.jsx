@@ -22,7 +22,7 @@ class SingIn extends React.Component {
     render() {
         return (
             <div className='sign-in'>
-                <h2>I already have an account</h2>
+                <h1 className='title'>I already have an account</h1>
                 <span>Sing in with your email and password</span>
                 <form onSubmit={this.handleSubmit}>
                     <FormInput label='email' name='email' value={this.state.email} required type='email' handleChange={this.handleChange} />
